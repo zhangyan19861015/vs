@@ -27,6 +27,6 @@ public class ErrorCtrl extends BaseCtrl
 	public Map<String, Object> doException(HttpServletRequest request, Exception e)
 	{
 		String spath=request.getServletPath();
-		return super.ajaxResultFailure("处理【"+spath+"】发生异常："+e.getMessage());
+		return super.ajaxResultFailure("处理【"+spath+"】发生异常123："+e.getMessage());
 	}
 }
